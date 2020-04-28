@@ -76,13 +76,13 @@ func (a *ProductsApiService) ChartrepoChartsPost(ctx context.Context, chart *os.
 	if localVarHttpHeaderAccept != "" {
 		localVarHeaderParams["Accept"] = localVarHttpHeaderAccept
 	}
-    localVarFile := chart
-	if localVarFile != nil {
-		fbs, _ := ioutil.ReadAll(localVarFile)
-		localVarFileBytes = fbs
-		localVarFileName = localVarFile.Name()
-		localVarFile.Close()
-	}
+ //    localVarFile := chart
+	// if localVarFile != nil {
+	// 	fbs, _ := ioutil.ReadAll(localVarFile)
+	// 	localVarFileBytes = fbs
+	// 	localVarFileName = localVarFile.Name()
+	// 	localVarFile.Close()
+	// }
     var localVarFile *os.File
 	if localVarOptionals != nil && localVarOptionals.Prov.IsSet() {
 		localVarFileOk := false
@@ -914,13 +914,13 @@ func (a *ProductsApiService) ChartrepoRepoChartsPost(ctx context.Context, repo s
 	if localVarHttpHeaderAccept != "" {
 		localVarHeaderParams["Accept"] = localVarHttpHeaderAccept
 	}
-    localVarFile := chart
-	if localVarFile != nil {
-		fbs, _ := ioutil.ReadAll(localVarFile)
-		localVarFileBytes = fbs
-		localVarFileName = localVarFile.Name()
-		localVarFile.Close()
-	}
+ //    localVarFile := chart
+	// if localVarFile != nil {
+	// 	fbs, _ := ioutil.ReadAll(localVarFile)
+	// 	localVarFileBytes = fbs
+	// 	localVarFileName = localVarFile.Name()
+	// 	localVarFile.Close()
+	// }
     var localVarFile *os.File
 	if localVarOptionals != nil && localVarOptionals.Prov.IsSet() {
 		localVarFileOk := false
